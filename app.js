@@ -8,3 +8,5 @@ function getTranslationUrl(text) {
     return serverURL + "?" + "text=" + text; 
 }
 
+
+
