@@ -1,11 +1,87 @@
+:root {
+    --primary-color: #343a40;
+    --second-color: #ed4da;
+    --widht-break: 600px;
+}
+
+body {
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+
+nav {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--primary-color);
+    margin-bottom: 5rem;
+    font-size: larger;
+    color: white;
+}
+
+main {
+    width: var(--widht-break);
+    margin: auto;
+
+}
+
+
 textarea {
-    height: 100px;
-    width: 80vh;
+    border: 1px solid var(--primary-color);
+    height: 15vh;
+    width: 100%;
     display: block;
+    margin: 1rem;
+    padding: 1rem;
+    color: var(--primary-color);
 }
 
 .output {
-    border: 1px solid black;
-    height: 100px;
-    width: 80vh;
+    border: 1px solid var(--primary-color);
+    height: 15vh;
+    width: 100%;
+    margin: 1rem;
+    display: block;
 }
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.txt-btn {
+    margin: 0.5rem 1rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+footer div {
+    font-size: larger;
+    padding-bottom: 0.5rem;
+}
+
+footer p {
+    max-width: 600px;
+    margin: auto;
+}
+
+
+
+
+
