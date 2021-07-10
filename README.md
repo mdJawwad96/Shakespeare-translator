@@ -1,0 +1,1 @@
+This is fun translation app. This app translates normal english language to Shakespeare's english language. 
